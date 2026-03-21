@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WatchesbyT</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+    background: #ffffff;
+    color: #111;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    border: 1px solid #eee;
+    padding: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card:hover {
+    background: #f7f7f7;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.card p {
+    margin: 5px 0 0;
+    color: #777;
+    font-size: 14px;
+}
+
+.info {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #999;
+}
+
+/* WhatsApp Button */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 14px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">WatchesbyT</div>
+<div class="subtitle">Premium Watches – Schnell & Sicher</div>
+
+<div class="grid">
+
+<div class="card" onclick="location.href='rolex.html'">
+<h2>Rolex</h2>
+<p>Klassische Luxusmodelle</p>
+</div>
+
+<div class="card" onclick="location.href='patek.html'">
+<h2>Patek Philippe</h2>
+<p>Eleganz & Prestige</p>
+</div>
+
+<div class="card" onclick="location.href='audemars.html'">
+<h2>Audemars Piguet</h2>
+<p>Modern Luxury</p>
+</div>
+
+</div>
+
+<div class="info">
+✔ Lieferung aus Deutschland (DHL, ca. 4 Tage)<br>
+✔ Sichere Zahlungsmöglichkeiten verfügbar<br>
+✔ Weitere Modelle auf Anfrage erhältlich<br><br>
+
+Bestellung & Fragen direkt über WhatsApp
+</div>
+
+<div class="footer">
+© WatchesbyT
+</div>
+
+</div>
+
+<!-- WhatsApp Floating Button -->
+<a class="whatsapp" href="https://wa.me/DEINENUMMER?text=Hallo,%20ich%20interessiere%20mich%20für%20eine%20Uhr">
+WhatsApp
+</a>
+
+</body>
+</html>
